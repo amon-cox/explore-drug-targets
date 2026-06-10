@@ -51,4 +51,4 @@ scripts/user_query_test.sh
 - `data/` # input TSV files
 - `R/` # CLI script
 - `scripts/` # example user workflow
-- `results/` # output TSVs and plots (not tracked)
+- `results/` # output TSVs and plots
