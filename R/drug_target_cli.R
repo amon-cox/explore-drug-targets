@@ -117,6 +117,8 @@ molecules_ranked <- molecules_filtered |>
     )
 
 ## Write out results and print args$top to user
+dir.create("results", showWarnings = FALSE, recursive = TRUE)
+
 if (!is.na(args$output)) {
     res_name <- args$output
 } else {
